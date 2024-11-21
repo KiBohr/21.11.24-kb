@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+form{
+    width: 220px;
+    margin: 10px auto;
+    background-color:rgb(128, 124, 0);
+    padding: 10px 10px;
+}
+
+fieldset{
+    border-style: none;
+}
+
+.header{
+    padding: 7px 12%;
+    font-size: 1rem;
+    border-style: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#SU{
+    background-color: rgb(128, 124, 0);
+    margin-right: 20px;
+}
+
+#li{
+    background-color: rgb(26, 97, 168);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.fields{
+    width: 100%;
+    border-color:rgb(128, 124, 0);
+    font-size: 8px;
+    color:white;
+    padding: 5px 10px;
+    background-color:rgb(159, 156, 51);
+}
+
+input[for="placeholder"]{
+    color:white;
+}
+
+#email{
+    margin-bottom:10px;;
+}
+
+#pw{
+    margin-bottom: 30px;
+}
+
+a{
+    margin-left: 130px;
+    font-size: 7px;
+    color: rgb(26, 97, 168);
+    margin-bottom: 30px;
+}
+
+#LI{
+    margin-top: 10px;
+    padding: 10px 75px;
+    text-transform:uppercase;
+    background-color:rgb(26, 97, 168);
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+

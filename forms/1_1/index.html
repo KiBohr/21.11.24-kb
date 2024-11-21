@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-1_1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+
+        <form action="">
+
+            <fieldset>
+                <section id="names">
+                    <label id="Name" for="firstName">Name <span>*</span></label>
+
+                    <div>
+                    <input type="text" name="firstNameInput" id="firstName" placeholder="Atlas" required> 
+
+                    <input type="text" name="lastNameInput" id="lastName" placeholder="Wobble" required> 
+                    </div>
+                </section>
+
+                <section id="email">
+                    <label for="email">Email <span>*</span></label>
+
+                    <div>
+                    <input type="email" name="emailInput" id="email" placeholder="randomperson@yes.com" required> 
+                    </div>
+                </section>
+
+                <section id="theme">  
+                    <label for="theme">Theme</label>
+
+                    <div>
+                    <select name="themeInput" id="theme">
+                    
+                        <option value="General">General</option>
+
+                        <option value="Advertise">Advertise</option>
+
+                        <option value="Partnership">Partnership</option>
+                    </select>
+                </div>
+            </section>
+
+                <section>
+                    <label for="">Message <span>*</span></label>
+                    <div>
+                        <textarea name="messageInput" id="message"></textarea required>
+                    </div>
+                </section>
+
+                <section>
+                    <input type="submit" name="submitInput" id="submit" value="Submit">
+                </section>
+            </fieldset>
+
+        </form>
+    
+
+    
+</body>
+</html>

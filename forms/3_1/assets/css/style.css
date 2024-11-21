@@ -1,0 +1,102 @@
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: roboto;
+}
+
+fieldset{
+    border-style: none;
+    background-color: rgb(232, 246, 255);
+    border-radius: 10px 10px 0 0;
+}
+form{
+    width: 25vh;
+    margin: 0 auto;
+    /* background-color: beige; */
+}
+
+h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+    padding: 8px 0 0 10px;
+    color:azure
+}
+
+#header{
+    background-color: skyblue;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color:azure
+}
+
+.headings{
+    font-size: 13px;
+    color:skyblue;
+    padding-left: 20px;
+    margin-bottom: 10px;;
+}
+
+.heading:before{
+    width: 40px;
+    content: "";
+    background-image: url(../img/dice-1.svg);
+    position: absolute;
+}
+
+.textfield{
+    font-size: 7px;
+    color:cadetblue;
+    border-style:none;
+    text-decoration:underline;
+    padding: 2px 70px 2px 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color:white;
+}
+
+input[for="phone"]{
+    margin-bottom: 40px;
+}
+
+#sub{
+    font-size: 8px;
+    color:skyblue;
+    background-color: azure;
+    border-color: skyblue;
+    border-radius: 5px;
+    padding: 3px 7px;
+    margin: 0 40px 10px 20px;
+}
+
+label[for="tp"]{
+    font-size: 5px;
+    color:skyblue;
+}
+
+input[for="checkbox"]{
+    accent-color: green;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family:sans-serif
+}
+
+form{
+    /* background-color: beige; */
+    width: 400px;
+    margin: 20px auto;
+
+}
+
+input{
+    border: 1px solid rgb(187, 175, 175);
+}
+
+span{
+    color: red;
+}
+
+input:focus::placeholder{
+    visibility: hidden;
+}
+
+
+label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+fieldset{
+    /* background-color: rgb(152, 178, 178); */
+    border-style: none;
+}
+
+input{
+    /* width:100%; */
+    height: 25px;
+}
+
+#names{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#firstName{
+margin-right: 5px;
+padding-left:5px;
+padding-right: auto;
+}
+
+#lastName{
+    padding-left: 5px;
+padding-right: auto;
+
+}
+
+#email{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+
+#theme{
+    margin-bottom: 5px;
+}
+
+select{
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(187, 175, 175);
+}
+
+textarea{
+    width:100%;
+    height: 70px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(187, 175, 175);
+}
+
+#submit{
+    background-color: skyblue;
+    border-color: rgb(173, 195, 195);
+    color:whitesmoke;
+    border-style: none;
+    width:100%;
+}

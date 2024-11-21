@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    
+    <form action="">
+        <fieldset>
+
+            <legend>Register form</legend>
+        
+            <section>
+                <label class="samePos" for="name">Name</label>
+                <input type="text" id="name" name="nameInput" placeholder="Name">
+            </section>
+            <section>
+                <label class="samePos" for="surname">Surname</label>
+                <input type="text" id="surname" name="surNameInput" placeholder="Surname">
+            </section>
+            <section>
+                <label class="samePos" for="email">Email</label>
+                <input type="text" id="email" name="emailInput" placeholder="Email">
+            </section>
+
+            <section>
+
+                <label class="samePos" for="nonbinary, female, male">Gender</label>
+                <label for="nonbinary">nonbinary</label>
+                <input type="radio" id="nonbinary" name="genderInput">
+
+                <label for="female">female</label>
+                <input type="radio" id="female" name="genderInput">
+
+                <label for="male">male</label>
+                <input type="radio" id="male" name="genderInput">
+                
+            </section>
+
+            <section>
+                <label class="samePos" for="picture">Picture</label>
+                <input type="file" name="pictureInput" id="picture">
+            </section>
+            
+            <section>
+                <label class="samePos" for="country">Country</label>
+                <select name="countryInput" id="country">
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+                    <option value="usa">USA</option>
+                </select>
+            </section>
+
+            <section>
+                <label class="samePos" for="prefLan">Preferred Languages</label>
+                <select name="prefLanInput" id="prefLan">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                    <option value="react">React</option>
+            </select>
+        </section>
+
+            <section>
+                <label class="samePos" for="">Field of activity</label>
+                <input type="radio" id="it" name="focInput">
+                <label for="it">IT</label>
+                
+                <input type="radio" id="design" name="focInput">
+                <label for="design">Design</label>
+                
+                <input type="radio" id="other" name="focInput">
+                <label for="other">Other</label>
+                
+            </section>
+
+            <section>
+                <label for="sub"></label>
+                <input type="submit" name="submitInput" id="sub" value="Send">
+
+                <label for="c"></label>
+                <input type="submit" name="cancelInput" id="c" value="Cancel">
+            </section>
+
+        </fieldset>
+    </form>
+</body>
+</html>
